@@ -223,7 +223,7 @@ function App() {
                 &&
                 <img src={brlFlag} alt="" />
               }
-              <select name="coinA" id="coinA" value={chooseFirstCoin} onChange={e => setChooseFirstCoin(e.target.value)} className='focus:outline-none' >
+              <select name="coinA" id="coinA" value={chooseFirstCoin} onChange={e => setChooseFirstCoin(e.target.value)} className='focus:outline-none bg-white' >
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
                 <option value="GBP">GBP</option>
@@ -279,7 +279,7 @@ function App() {
                 &&
                 <img src={brlFlag} alt="" />
               }
-              <select name="coinB" id="coinB" value={chooseSecondCoin} onChange={e => setChooseSecondCoin(e.target.value)} className='focus:outline-none'>
+              <select name="coinB" id="coinB" value={chooseSecondCoin} onChange={e => setChooseSecondCoin(e.target.value)} className='focus:outline-none bg-white'>
                 <option value="USD">USD</option>
                 <option value="EUR">EUR</option>
                 <option value="GBP">GBP</option>
